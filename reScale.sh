@@ -2,7 +2,7 @@
 echo "参数1：$1"
 echo "参数2：$2"
 
-baseDir="/content/drive/MyDrive/veiod/$1/"
+baseDir="/content/drive/MyDrive/work/$1/"
 # baseDir="/usr/local/$1/"
 function read_dir(){
 	lastNum=$((10#$2+0))
