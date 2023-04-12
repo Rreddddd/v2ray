@@ -7,7 +7,7 @@ baseDir="/content/drive/MyDrive/veiod/$1/work/"
 function read_dir(){
 	lastNum=$((10#$2+0))
 	echo "lastNum:"$lastNum
-	targetDir=$1"b/"
+	targetDir=$1"a/"
 	echo "$targetDir"
 	for file in `ls $targetDir`
 	do
